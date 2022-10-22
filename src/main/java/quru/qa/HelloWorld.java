@@ -3,7 +3,13 @@ package quru.qa;
 public class HelloWorld {
 
     public static void main(String[] args) {
-        String stringThatBeDysplaedInConsole = null; //строка ограничения
+
+
+        byte k = 120;
+        k += 10;
+        System.out.println(k);
+
+        String stringThatBeDysplaedInConsole = "Мир"; //строка ограничения
 
         //можно сперва обьявить переменную, а потом в нее положить
         // String stringThatBeDysplaedInConsole;
@@ -53,6 +59,8 @@ public class HelloWorld {
 
         // ИЛИ  ||
         System.out.println(3 > 2 || 1 > 3);
+
+        //Не !
 
         if (stringThatBeDysplaedInConsole != null
                 && stringThatBeDysplaedInConsole.length() == 3) {
